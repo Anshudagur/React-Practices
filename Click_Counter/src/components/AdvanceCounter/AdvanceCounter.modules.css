@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 12px;
+}
+.counter{
+    text-align: center;
+    font-size: 28px;
+}
+
+[name="incrementBtn"],[name="decrementBtn"],[name="resetBtn"]{
+    padding: 8px 18px;
+    font-size: 1.2em;
+    margin: 5px;
+}
+
+.controls{
+    justify-content: space-between;
+}

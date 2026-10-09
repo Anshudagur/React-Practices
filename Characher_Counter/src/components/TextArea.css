@@ -1,0 +1,53 @@
+.parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.userInput {
+    margin-top: 14.63em;
+    display: grid;
+    grid-auto-flow: row;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.userInput > label{
+    font-size: 1.8em;
+    font-family: "Gilroy";
+}
+
+#text{
+    width: 400px;
+    height: 150px;
+    resize: none;
+    font-size: 18px;
+}
+
+.controls{
+    display: flex;
+    justify-content: center;
+    gap: 12.8em;
+}
+
+.controls #submitBtn, .controls #refreashBtn{
+    padding: 8px 12px;
+    margin: 1.1em;
+}
+
+.feedback {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    text-align: center;
+    width: 300px;
+}
+
+.feedback > h3 {
+    display: inline;
+    font-size: 1.1em;
+    margin: 0;
+}

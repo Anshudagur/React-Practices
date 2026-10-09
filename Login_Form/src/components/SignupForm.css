@@ -1,0 +1,70 @@
+.Form{
+  max-width: 380px;
+  margin: 80px auto;
+  padding: 32px 28px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.Form h3 {
+  text-align: center;
+  margin-bottom: 24px;
+  color: #22314a;
+  font-size: 1.4rem;
+}
+
+.Form form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.nameField ,
+.emailField ,
+.passwdField ,
+.conformPasswdField {
+  margin: 0.8em;
+}
+
+.nameField label,
+.emailField label,
+.passwdField label,
+.conformPasswdField label {
+  display: block;
+  margin-bottom: 0.8em;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #444;
+}
+
+.nameField input,
+.emailField input,
+.passwdField input,
+.conformPasswdField input {
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  box-sizing: border-box;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  margin-top: 0.6em;
+}
+
+.nameField input,
+.emailField input,
+.conformPasswdField input{
+  width: 100%;
+}
+
+.passwdField input{
+  display:  inline-block;
+  width: 80.12%; 
+}
+
+.lineBox div{
+  display: inline-block;
+  align-items: center;
+  margin-left: 18px;
+}

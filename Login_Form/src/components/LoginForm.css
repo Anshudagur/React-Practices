@@ -1,0 +1,138 @@
+.wrapper {
+  max-width: 380px;
+  margin: 80px auto;
+  padding: 32px 28px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.wrapper h3 {
+  text-align: center;
+  margin-bottom: 24px;
+  color: #22314a;
+  font-size: 1.4rem;
+}
+
+.wrapper form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.email label,
+.password label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #444;
+}
+
+.email input,
+.password input {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  box-sizing: border-box;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.email input:focus,
+.password input:focus {
+  outline: none;
+  border-color: #3a6df0;
+  box-shadow: 0 0 0 3px rgba(58, 109, 240, 0.15);
+}
+
+.cradentials {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.cradentials input {
+  flex: 1;
+}
+
+.cradentials button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cradentials .showIcon {
+  width: 20px;
+  height: 20px;
+  opacity: 0.6;
+}
+
+.cradentials button:hover .showIcon {
+  opacity: 1;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 8px;
+}
+
+.controls button {
+  flex: 1;
+  padding: 10px 0;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.controls button[type="submit"] {
+  background-color: #3a6df0;
+  color: #ffffff;
+}
+
+.controls button[type="submit"]:hover {
+  background-color: #2f59c9;
+}
+
+.controls button[type="reset"] {
+  background-color: #f0f0f0;
+  color: #444;
+}
+
+.controls button[type="reset"]:hover {
+  background-color: #e2e2e2;
+}
+
+.controls button:active {
+  transform: scale(0.97);
+}
+
+.options{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 16px;
+}
+
+.forgetpasswd a{
+  font-size: 13px;
+  text-decoration: none;
+  color: blue;
+}
+
+.forgetpasswd a:hover{
+  cursor: pointer;
+  color: rgb(220, 82, 82);
+}

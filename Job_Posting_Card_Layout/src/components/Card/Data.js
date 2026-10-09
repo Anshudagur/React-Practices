@@ -1,0 +1,73 @@
+import { SiGoogle, SiDribbble, SiFigma, SiAirbnb, SiApple } from "react-icons/si"
+import { FaAmazon } from "react-icons/fa"
+
+const jobs = [
+  {
+    id: 1,
+    company: "Amazon",
+    logo: FaAmazon,
+    postedDaysAgo: 5,
+    title: "Senior UI/UX Designer",
+    tags: ["Part-Time", "Senior Level"],
+    salary: "$120/hr",
+    location: "Mumbai, India",
+    saved: false,
+  },
+  {
+    id: 2,
+    company: "Google",
+    logo: SiGoogle,
+    postedDaysAgo: 30,
+    title: "Graphic Designer",
+    tags: ["Part-Time", "Flexible Schedule"],
+    salary: "$150-220k",
+    location: "Kochi, India",
+    saved: true,
+  },
+  {
+    id: 3,
+    company: "Dribble",
+    logo: SiDribbble,
+    postedDaysAgo: 18,
+    title: "Senior Motion Designer",
+    tags: ["Contract", "Remote"],
+    salary: "$85/hr",
+    location: "Chennai, India",
+    saved: false,
+  },
+  {
+    id: 4,
+    company: "Figma",
+    logo: SiFigma,
+    postedDaysAgo: 5,
+    title: "UX Designer",
+    tags: ["Full-Time", "In office"],
+    salary: "$200-250k",
+    location: "Bangalore, India",
+    saved: true,
+  },
+  {
+    id: 5,
+    company: "Airbnb",
+    logo: SiAirbnb,
+    postedDaysAgo: 5,
+    title: "Junior UI/UX Designer",
+    tags: ["Contract", "Remote"],
+    salary: "$100/hr",
+    location: "Delhi, India",
+    saved: false,
+  },
+  {
+    id: 6,
+    company: "Apple",
+    logo: SiApple,
+    postedDaysAgo: 5,
+    title: "Graphic Designer",
+    tags: ["Full-Time", "Flexible Schedule"],
+    salary: "$85-120k",
+    location: "Kerala, India",
+    saved: true,
+  },
+];
+
+export default jobs;
